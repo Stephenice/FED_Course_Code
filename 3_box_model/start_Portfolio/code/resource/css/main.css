@@ -1,0 +1,115 @@
+/* Global selector */
+:root {
+--dark-primary-color  :#D32F2F; 
+--default-primary-color : #F44336; 
+--light-primary-color : background: #FFCDD2; 
+--text-primary-color : #FFFFFF; 
+--accent-color       : #FF5252; 
+--primary-text-color   : #212121; 
+--secondary-text-color  : #757575; 
+--divider-color        : #BDBDBD; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, 
+body{
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    /* overflow-x: hidden; */
+}
+
+.row{
+  max-width: 1200px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* test */
+.test{
+  border: 1px solid white;
+  
+}
+
+/* nav section */
+.nav_container{
+  background: var(--dark-primary-color);
+  /* background: rgb(211,47,47); */
+  /* background: -moz-linear-gradient(180deg, rgba(211,47,47,1) 93%, rgba(255,205,210,1) 100%);
+  background: -webkit-linear-gradient(180deg, rgba(211,47,47,1) 93%, rgba(255,205,210,1) 100%);
+  background: linear-gradient(180deg, rgba(211,47,47,1) 93%, rgba(255,205,210,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d32f2f",endColorstr="#ffcdd2",GradientType=1); */
+  color: var(--text-primary-color);
+  box-shadow: 0 2px 3px 1px rgba(211, 47, 47, 0.6);
+  position: relative;
+  height: 80px;
+}
+
+.nav_center{
+  padding: 20px 0;
+  /* vertical-align: baseline; */
+}
+
+.logo{
+  width: auto;
+  /* height: 80px; */
+  display: inline-block;
+}
+
+.nav_ul{
+  display: inline;
+ list-style: none;
+ position: relative;
+ width: auto;
+ float: right;
+ /* vertical-align: baseline; */
+ margin-top:5px ;
+}
+
+.nav_li{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.nav_li:not(:last-child){
+  margin-right: 15px;
+}
+
+span{
+  vertical-align: baseline;
+}
+
+.nav_li a:link,
+.nav_li a:visited{
+  color: var(--text-primary-color);
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  cursor: pointer;
+}
+
+.nav_li a:focus{
+  /* outline: 2px solid var(--text-primary-color);
+  padding: 2px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px; */
+}
+
+.nav_li a:hover{
+  border-bottom: 3px solid var(--divider-color);
+  color: var(--divider-color);
+  cursor: pointer;
+  font-family: inherit;
+  padding-bottom: 2.5px;
+}
+

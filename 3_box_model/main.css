@@ -1,0 +1,52 @@
+h3 {
+  border: 1px solid red;
+}
+
+/* 
+converting block to inline-block 
+mostly used for navigation Menu  */
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid green;
+}
+
+/*absolute length units  */
+.absolute {
+  height: 300px;
+  width: 300px;
+  border: 1px solid red;
+}
+
+.relative {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+}
+
+.relative img {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+/* Properties of box Model */
+.box_model {
+  height: 100px;
+  width: 300px;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid red;
+  /* display: inline-block; */
+}
+
+.box-sizing {
+  box-sizing: border-box;
+}
