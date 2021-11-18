@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  font-size: 20px;
+  width: 801px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+header,
+footer {
+  background: rgb(250, 163, 174);
+  height: 50px;
+}
+aside {
+  background: rgb(173, 230, 199);
+  height: 250px;
+  width: 200px;
+  float: left;
+}
+article {
+  background: rgb(183, 144, 238);
+  height: 250px;
+  width: 600px;
+  float: left;
+  padding: 20px;
+}
+
+footer {
+  clear: both;
+}
