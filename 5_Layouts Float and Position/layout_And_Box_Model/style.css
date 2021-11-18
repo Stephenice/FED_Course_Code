@@ -1,4 +1,4 @@
-html {
+/* html {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -8,17 +8,17 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-}
+} */
 
 .container {
   font-size: 20px;
-  width: 801px;
+  width: 804px;
   margin: 0 auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  /* overflow: hidden; */
 }
 
-header,
-footer {
+header {
   background: rgb(250, 163, 174);
   height: 50px;
 }
@@ -37,5 +37,7 @@ article {
 }
 
 footer {
-  clear: both;
+  /* clear: both; */
+  background: rgb(163, 222, 250);
+  height: 50px;
 }
