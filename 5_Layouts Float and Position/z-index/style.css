@@ -8,33 +8,45 @@ body {
   height: 400px;
 }
 .block1 {
-  display: none;
+  /* display: none; */
+  position: relative;
   background: pink;
+  z-index: 2;
+  /* opacity: 0.8; */
 }
 .block2 {
-  display: none;
+  /* display: none; */
+  position: relative;
   background: red;
   margin: -60px 0 0 20px;
+  z-index: 100;
 }
 .float {
-  display: none;
+  /* display: none; */
+  position: relative;
   background: lightblue;
   float: left;
   margin: -150px 0 0 100px;
+  z-index: 300;
 }
 .inline {
-  display: none;
+  /* display: none; */
   background: blue;
   color: white;
   padding: 10px 40px 10px 10px;
+  position: absolute;
+  z-index: 1;
 }
 .position {
-  display: none;
+  /* display: none; */
   background: orange;
   position: relative;
   left: 180px;
   top: -165px;
   height: 110px;
+  z-index: 500;
+  position: relative;
+  opacity: 0.5;
 }
 
 /* shared div styles */
