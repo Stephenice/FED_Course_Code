@@ -10,6 +10,8 @@ body {
   font-family: "Times New Roman", Times, serif;
   color: #ffffff;
   font-size: 20px;
+  text-rendering: optimizeLegibility;
+  font-weight: 400;
 }
 
 .row {
@@ -18,12 +20,12 @@ body {
   margin: 0 auto;
 }
 
-/* test */
+/*------------- test */
 .test {
-  border: 1px solid white;
+  border: 1px solid rgb(238, 70, 70);
 }
 
-/* nav */
+/*---------- nav */
 .nav_container {
   background: #d32f2f;
   height: 80px;
@@ -64,4 +66,68 @@ body {
   cursor: pointer;
   border-bottom: 3px solid #bdbdbd;
   padding-bottom: 2.5px;
+}
+
+/* --------------home
+------------------------ */
+.home_container {
+  padding: 80px 0;
+  color: #5a5858;
+  overflow: hidden;
+}
+
+.home_leftSide {
+  width: 30%;
+  float: left;
+  text-align: center;
+}
+
+.home_leftSide img {
+  width: 90%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.home_leftSide h3 {
+}
+
+.home_rightSide {
+  width: 70%;
+  float: left;
+  padding-left: 30px;
+}
+
+.home_rightSide p {
+  font-size: 120%;
+  line-height: 150%;
+  margin-bottom: 10px;
+}
+
+/* -----------my color */
+.dark-primary-color {
+  background: #d32f2f;
+}
+.default-primary-color {
+  background: #f44336;
+}
+.light-primary-color {
+  background: #ffcdd2;
+}
+.text-primary-color {
+  color: #ffffff;
+}
+.accent-color {
+  background: #ff5252;
+}
+.primary-text-color {
+  color: #212121;
+}
+.secondary-text-color {
+  color: #757575;
+}
+.divider-color {
+  border-color: #bdbdbd;
 }
